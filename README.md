@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=OEFKlRSd8Ic&ab_channel=JeffHeaton.
 
 # Demon
 (1) Instruction to run on data: 
-For public or private liver CT volumes, one can first use the pretrained liver detection model pre-trained on the public data sets LITS (https://competitions.codalab.org/competitions/17094) to capture all the slices that contain liver. Then one can use the registration code to transform the liver CT scans to 3D-shape volumes and then resize to (256, 256, 128), where the first two 256 denote the number of pixels along with the width and height directions, and 128 denotes the number of slices. 
+For public or private liver CT volumes, one can first use the pretrained liver detection model pre-trained on the public data sets LITS (https://competitions.codalab.org/competitions/17094) to capture all the slices that contain liver. Then one can use the registration code to transform the liver CT scans to 3D-shape volumes and then resize to (256, 256, 128), where the first two 256 denote the number of pixels along with the width and height directions, and 128 denotes the number of slices. Third, one can train the model on the resized CT volumes. 
 
 (2) Expected output
 
