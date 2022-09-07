@@ -16,8 +16,10 @@ https://www.youtube.com/watch?v=OEFKlRSd8Ic&ab_channel=JeffHeaton.
 
 # Demon
 (1) Instruction to run on data: 
-For public or private liver CT volumes, 
+For public or private liver CT volumes, one can use the pretrained liver detection model pre-trained on the public data sets LITS (https://competitions.codalab.org/competitions/17094) to capture all the slices that contain liver. 
+
 (2) Expected output
+
 (3) Expected run time for demo on a "normal" desktop computer
 
 # Instructions for use
