@@ -8,7 +8,9 @@ To ensure the successful utilization of GPU computation power, one should instal
 
 # Installation Guide: Instruction + Typical Install time on a normal desktop computer
 (1) Instrcution has desribed above, which can be summaried by: cudnn, cudatoolkit --> tensorflow-gpu, keras ---> other required libraries like numpy, scipy, and so on.
+
 (2) Generally, the installation can be completed within two or four hours when the network connection has a good quality.
+
 For easy installation, one can watch this video for more detailed information via 
 https://www.youtube.com/watch?v=OEFKlRSd8Ic&ab_channel=JeffHeaton.
 
