@@ -16,9 +16,13 @@ https://www.youtube.com/watch?v=OEFKlRSd8Ic&ab_channel=JeffHeaton.
 
 # Demon
 (1) Instruction to run on data: 
-For public or private liver CT volumes, one can first use the pretrained liver detection model pre-trained on the public data sets LITS (https://competitions.codalab.org/competitions/17094) to capture all the slices that contain liver. Then one can use the registration code to transform the liver CT scans to 3D-shape volumes and then resize to (256, 256, 128), where the first two 256 denote the number of pixels along with the width and height directions, and 128 denotes the number of slices. Third, one can train the model on the resized CT volumes. 
+For public or private liver CT volumes, one can first use the pretrained liver detection model pre-trained on the public data sets LITS (https://competitions.codalab.org/competitions/17094) to capture all the slices that contain liver. Then one can use the registration code to transform the liver CT scans to 3D-shape volumes and then resize to (256, 256, 128), where the first two 256 denote the number of pixels along with the width and height directions, and 128 denotes the number of slices. Third, one can train the model on the resized CT volumes. Once the model training is completed, one can conduct evaluation by loading the well-trained model weights.  
 
 (2) Expected output
+The outputs of the proposed model depends on the avaiability of mask files, i.e., the lesion contouring information. If the lesion contouring files are avaiable, one can run the model at the observation/lesion level. The output of model includes the probability of a patient/case being diagnoised as HCC/NonHCC (the classification task) and the prediction of lesion area detection (the segmentation task). It is noteworth that the output of lesion area detection only indicates the existence of lesions, not responsible for HCC/Non-HCC classification.
+
+If the lesion contouring files is not available, one can run the model at the patient leve. In this case, the output is the probability of a patient/case being diagnoised as HCC/NonHCC.
+
 
 (3) Expected run time for demo on a "normal" desktop computer
 
