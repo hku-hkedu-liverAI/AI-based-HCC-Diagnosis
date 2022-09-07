@@ -12,3 +12,12 @@ To ensure the successful utilization of GPU computation power, one should instal
 For easy installation, one can watch this video for more detailed information via 
 https://www.youtube.com/watch?v=OEFKlRSd8Ic&ab_channel=JeffHeaton.
 
+# Demon
+(1) Instruction to run on data: 
+For public or private liver CT volumes, 
+(2) Expected output
+(3) Expected run time for demo on a "normal" desktop computer
+
+# Instructions for use
+(1) How to run the software on your data
+(2) (Optinal) repreoduction instructions
