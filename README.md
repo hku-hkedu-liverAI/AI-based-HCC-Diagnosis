@@ -27,6 +27,8 @@ If the lesion contouring files is not available, one can run the model at the pa
 
 (3) Expected run time for demo on a "normal" desktop computer
 
+The model training on our server takes about 120 hours. For a general desktop computer, if there are one or two GPU cards, it will take about at least 240 hours after resizing the CT images to run the model normally on general desktop computer. Although the model training costs days, the model evaluation can be done within several minutes. 
+
 # Instructions for use
 (1) How to run the software on your data
 (2) (Optinal) repreoduction instructions
